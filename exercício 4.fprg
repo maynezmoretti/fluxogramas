@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exerc&#237;cio 4"/>
+        <attribute name="authors" value="I1D46B"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-18 02:51:16 "/>
+        <attribute name="created" value="STFENDZCO0VDRlA1MDdEMTI2MzU4NjsyMDI2LTAzLTE4OyIwMjozMDowMyAiOzI0MjQ="/>
+        <attribute name="edited" value="STFENDZCO0VDRlA1MDdEMTI2MzU4NjsyMDI2LTAzLTE4OyIwMjo1MToxNiAiOzE7MjUzOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N&#250;mero" type="Integer" array="False" size=""/>
+            <assign variable="N&#250;mero" expression="0"/>
+            <output expression="&quot;Digite um n&#250;mero: &quot;" newline="True"/>
+            <input variable="N&#250;mero"/>
+            <if expression="N&#250;mero = 0">
+                <then>
+                    <output expression="&quot;O n&#250;mero &#233; igual a 0&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="N&#250;mero &gt; 0">
+                        <then>
+                            <output expression="&quot;O n&#250;mero &#233; positivo&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;O n&#250;mero &#233; negativo&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

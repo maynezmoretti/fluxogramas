@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exerc&#237;cio 5"/>
+        <attribute name="authors" value="I1D46B"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-18 03:18:07 "/>
+        <attribute name="created" value="STFENDZCO0VDRlA1MDdEMTI2MzU4NjsyMDI2LTAzLTE4OyIwMjo1MzoxMiAiOzI0Mjk="/>
+        <attribute name="edited" value="STFENDZCO0VDRlA1MDdEMTI2MzU4NjsyMDI2LTAzLTE4OyIwMzoxODowNyAiOzE7MjU0Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Real" array="False" size=""/>
+            <output expression="&quot;Adicione a primeira nota&quot;" newline="True"/>
+            <input variable="A"/>
+            <declare name="B" type="Real" array="False" size=""/>
+            <output expression="&quot;Adicione a segunda nota&quot;" newline="True"/>
+            <input variable="B"/>
+            <declare name="Soma" type="Real" array="False" size=""/>
+            <assign variable="Soma" expression="A+B"/>
+            <declare name="Valor" type="Real" array="False" size=""/>
+            <assign variable="Valor" expression="A+B"/>
+            <declare name="M&#233;dia" type="Real" array="False" size=""/>
+            <assign variable="M&#233;dia" expression="Valor/2"/>
+        </body>
+    </function>
+</flowgorithm>
